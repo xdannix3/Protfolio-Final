@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7YC1NCFR2X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7YC1NCFR2X');
+</script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.ico">
+	<link href='https://fonts.googleapis.com/css?family=Amiri' rel='stylesheet'>
+	<script src="https://kit.fontawesome.com/3a01780cbb.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Home</title>
+</head>
+
+<body>
+    <!-- nav -->
+    <a class="skip" href="#main">Skip to Main Content</a>
+    <header>
+      <nav>
+        <ul>
+          <li><a href = "index.html" >Home</a> </li>
+          <li><a href = "christmas.html">Christmas Eve In Paris</a></li>
+          <li><a href = "scenery.html">Famous Scenery</a></li>
+          <li><a href = "food.html">Delicious Food</a></li>
+          <li class="active"><a href = "contact.html">Contact</a></li>
+
+        </ul>
+      </nav>
+    </header>
+
+    <div class="bgimg-1">
+      <div class="caption"> 
+        <span class="border">Contact Me</span>
+      </div>
+    </div>
+
+    
+    
+  
+      <!-- Form -->
+      <main>
+
+        
+        <form id="main">
+          <fieldset>
+            <legend>Sample Form</legend>
+        
+            <label for="name_id"><i class="fa-solid fa-user"></i> Your Name</label>
+            <input type="text" placeholder="Enter Your Name" id = "name_id" name="name" required>
+        
+            <label for="email_id"><i class="fa-solid fa-envelope"></i> Your Email</label>
+            <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required>
+        
+            <label for="phone_id"><i class="fa-solid fa-phone"></i> Your Phone</label>
+            <input type="tel" placeholder="123-456-7890" id = "phone_id" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+            <label for="msg"><i class="fa-solid fa-feather"></i> Leave A Message</label>
+        
+            <textarea placeholder="Enter your message" id = "msg" name="mesg" required></textarea>
+            <br>
+           
+
+            <input type="submit" value = "Contact Me">
+          </fieldset>
+        </form>
+  
+       
+
+        
+      </main>
+      
+</body>
+
+<footer>
+  <p>University of Michigan School of Information</p>
+  <p>Danni Xiao &copy; 2022</p>
+</footer>
+
+</html>
